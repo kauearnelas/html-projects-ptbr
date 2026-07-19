@@ -1,2 +1,3 @@
-# ex2
-HTML-CSS Projects
+# HTML-CSS
+
+Testing what I am learning on HTML and CSS.
