@@ -1,2 +1,2 @@
 # ex2
-Projeito HTML
+HTML-CSS Projects
