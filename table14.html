@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 200px;
+        }
+        th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            background-color: gray;
+            color: white;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        thead.total{
+            background-color: gray;
+            color: white;
+            text-align: left;
+        } 
+
+        td.grupo{
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr> 
+                <th rowSpan="2" colSpan="2"> Area</th>
+                <th rowSpan="2" colSpan="2"> Disciplinas</th>
+                <th colspan="2"> Notas</th>
+                <th rowSpan="2"> Media</th>
+            </tr>
+            <tr> 
+                <th> Nota 1</th>
+                <th> Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> 
+                <td class="grupo" rowspan="4" colspan="2" scope="rowgroup"> Exatas</td>
+                <td colspan="2"> Matematica</td>
+                <td> 0.0 </td>
+                <td> 0.0</td>
+                <td colspan="2"> 0.0</td>
+            </tr>
+            <tr>
+                <td colspan="2"> Fisica</td>
+                <td> 0.0 </td>
+                <td> 0.0</td>
+                <td colspan="2"> 0.0</td>
+            </tr>
+            <tr>
+                <td colspan="2"> Quimica</td>
+                <td> 0.0 </td>
+                <td> 0.0</td>
+                <td colspan="2"> 0.0</td>
+            </tr>
+            <tr>
+                <td colspan="2"> Biologia</td>
+                <td> 0.0 </td>
+                <td> 0.0</td>
+                <td colspan="2"> 0.0</td>
+            </tr>
+            <thead class="total"> 
+                <td colspan="6"> Media de Exatas</td>
+                <td> 0.0</td>
+            </thead>
+            <tr>
+                <td class="grupo" rowspan="4" colspan="2" scope="rowgroup"> Humanas</td>
+                <td colspan="2"> Historia</td>
+                <td> 0.0 </td>
+                <td> 0.0</td>
+                <td colspan="2"> 0.0</td>
+            </tr>
+            <tr>
+                <td colspan="2"> Geografia</td>
+                <td> 0.0 </td>
+                <td> 0.0</td>
+                <td colspan="2"> 0.0</td>
+            </tr>
+            <thead class="total">
+                <tr> 
+                    <td colspan="6"> Media de Humanas</td>
+                    <td> 0.0</td>
+                </tr>
+            </thead>
+        </tbody>
+    </table>
+</body>
+</html>
